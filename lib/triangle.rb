@@ -2,7 +2,9 @@ class Triangle
   # write code here
   attr_accessor :sides
   def initialization(a, b, c)
-    @sides = [a,b,c]
+    @sides[0] = a
+    @sides[1] = b
+    @sides[2] = c
   end
 
   def kind
