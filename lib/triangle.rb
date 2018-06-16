@@ -9,7 +9,7 @@ class Triangle
 
   def kind
 
-    if @side_one == @sides_two && @side_one == @side_three
+    if @side_one == @side_two && @side_one == @side_three
       type = :equilateral
     #   begin
     #     raise TriangleError
