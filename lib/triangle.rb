@@ -16,8 +16,8 @@ class Triangle
     #   rescue TriangleError => error
     #     puts error.message
     #   end
-  elsif @side_one == @side_two || @side_one == @side_three || @side_two == @side_three
-    type = :isosceles
+    elsif @side_one == @side_two || @side_one == @side_three || @side_two == @side_three
+      type = :isosceles
     end
     type
 
