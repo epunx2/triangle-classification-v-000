@@ -1,7 +1,7 @@
 class Triangle
   # write code here
   attr_accessor :side_one, :side_two, :side_three
-  def initialization(a, b, c)
+  def initialize(a, b, c)
     @side_one = a
     @side_two = b
     @side_three = c
