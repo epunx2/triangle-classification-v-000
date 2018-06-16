@@ -1,6 +1,6 @@
 class Triangle
   # write code here
-  attr_accessor :side_one, :side_two, :side_three, :type
+  attr_accessor :side_one, :side_two, :side_three
   def initialize(a, b, c)
     @side_one = a
     @side_two = b
@@ -10,7 +10,7 @@ class Triangle
   def kind
 
     if @side_one == @sides_two && @side_one == @side_three
-      @type = :equilateral
+      type = :equilateral
     #   begin
     #     raise TriangleError
     #   rescue TriangleError => error
@@ -19,7 +19,7 @@ class Triangle
     # elsif()
 
     end
-    @type
+    type
 
   end
 
