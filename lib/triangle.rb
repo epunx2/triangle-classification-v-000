@@ -1,13 +1,15 @@
 class Triangle
   # write code here
-  attr_accessor :sides
-  def initialization(attributes)
-    attributes.each {|key, value| self.send(("#{key}="), value)}
+  attr_accessor :side_one, :side_two, :side_three
+  def initialization(a, b, c)
+    @side_one = a
+    @side_two = b
+    @side_three = c
   end
 
   def kind
 
-    if @sides[0] == @sides[1] && @sides[0] == @sides[2]
+    if @side_one == @sides_two && @side_one == @side_three
       @type = :equilateral
     #   begin
     #     raise TriangleError
