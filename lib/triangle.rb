@@ -6,19 +6,19 @@ class Triangle
   end
 
   def kind
-    
+
     if @sides[0] == @sides[1] && @sides[0] == @sides[2]
       @type = :equilateral
-      begin
-        raise TriangleError
-      rescue TriangleError => error
-        puts error.message
-      end
-    elsif()
+    #   begin
+    #     raise TriangleError
+    #   rescue TriangleError => error
+    #     puts error.message
+    #   end
+    # elsif()
 
     end
     @type
-      
+
   end
 
   class TriangleError < StandardError
