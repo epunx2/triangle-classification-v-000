@@ -1,6 +1,6 @@
 class Triangle
   # write code here
-  attr_accessor :side_one, :side_two, :side_three
+  attr_accessor :side_one, :side_two, :side_three, :type
   def initialize(a, b, c)
     @side_one = a
     @side_two = b
