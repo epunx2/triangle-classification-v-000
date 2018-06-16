@@ -18,7 +18,8 @@ class Triangle
     #   end
     elsif @side_one == @side_two || @side_one == @side_three || @side_two == @side_three
       type = :isosceles
-    end
+    else
+      type = :scalene
     type
 
   end
