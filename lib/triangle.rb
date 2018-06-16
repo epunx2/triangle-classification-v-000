@@ -20,6 +20,7 @@ class Triangle
       type = :isosceles
     else
       type = :scalene
+    end
     type
 
   end
